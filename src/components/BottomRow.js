@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../assets/css/App.css";
 
-const BottomRow = () => {
+export default function BottomRow() {
   const [quarter, setQuarter] = useState(1);
 
   return (
@@ -26,5 +26,3 @@ const BottomRow = () => {
     </div>
   );
 };
-
-export default BottomRow;
